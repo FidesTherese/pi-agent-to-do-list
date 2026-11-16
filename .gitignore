@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tgz
+coverage/
+.pi-task-test-*/
+
+# Keep internal Markdown documents out of Git.
+**/*.md
+!README.md
+!**/README.md
