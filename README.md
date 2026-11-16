@@ -18,13 +18,13 @@ This Pi extension shows the agent's current tasks and how many it has finished. 
 - Node.js 22.19 or later.
 - An interactive terminal for the right-hand list. An API-connected client can also receive the list if it displays Pi's extension messages.
 
-The package has not been published to npm. The npm registry installation command below will work after publication. The package currently has no license; the owner should choose one before distributing it.
+The package is marked `UNLICENSED`.
 
 [↑ Back to Table of Contents](#table-of-contents)
 
 ## Try the extension
 
-From this directory, install the development dependencies and start Pi with the extension:
+From a source checkout of this project, install the development dependencies and start Pi with the extension:
 
 ```bash
 npm install
@@ -45,7 +45,7 @@ pi install .
 
 Pi records the local directory in its settings. The directory must remain available. Use `pi install . --local` instead to configure only the current project.
 
-Once the package owner publishes `pi-agent-to-do-list` to npm, install it with:
+When the package is available on npm, install it with:
 
 ```bash
 pi install npm:pi-agent-to-do-list
@@ -95,6 +95,6 @@ npm run typecheck
 npm pack --dry-run
 ```
 
-The [source guide](src/README.md) explains the source files, the [test guide](tests/README.md) explains the checks, and the [document guide](doc/README.md) describes the internal design records. The package has no separate server or runtime dependency installation step inside Pi.
+The source checkout includes guides in `src/README.md`, `tests/README.md`, and `doc/README.md`. They explain the source files, tests, and internal design records. The package has no separate server or runtime dependency installation step inside Pi.
 
 [↑ Back to Table of Contents](#table-of-contents)
